@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <title>POS</title>
+</head>
+
+<body>
+
+    <form action="{% url 'transaction:index' %}" method="post">
+        {% csrf_token %} {{ form.as_p }}
+        <input type="submit" id="submit" value="Submit">
+    </form>
+    <a id="link" href="/report">Show report</a>
+</body>
+
+</html>
