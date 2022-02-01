@@ -2,7 +2,7 @@
 
 Steps:
 
-1. Download the Chrom Driver Check the version of Chrome
+1. Download the Chrome Driver Check the version of Chrome
 2. Put the file downloaded to the folder where Django project exists (manage.py rooth)
 3. type in console export "PATH=$PATH:C:home/...
 4. pip instal django
